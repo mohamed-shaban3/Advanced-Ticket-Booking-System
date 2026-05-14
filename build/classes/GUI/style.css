@@ -1,0 +1,36 @@
+#mainPane {
+    -fx-background-color: #d0e7f9;
+    -fx-padding: 30;
+}
+.button-primary {
+    -fx-background-color: #3c8631;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}
+.button-secondary {
+    -fx-background-color: #70b569;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15 8 15;
+}
+.button-danger {
+    -fx-background-color: #ef3f34;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15 8 15;
+}
+
+.label-welcome {
+    -fx-background-color: #edd6c7;
+    -fx-padding: 10;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+    -fx-background-radius: 10;
+}
+

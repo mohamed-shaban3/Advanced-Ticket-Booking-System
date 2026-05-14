@@ -1,0 +1,81 @@
+/* 1. تنسيق الشاشة الرئيسية والخلفية */
+#mainPane {
+    -fx-background-color: #d0e7f9; /* اللون اللبني الهادي اللي اخترته */
+    -fx-padding: 30;
+    -fx-alignment: center;
+}
+
+/* 2. تنسيق العناوين (Train Booking System) */
+.header-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 20 0;
+}
+
+/* 3. تنسيق الأزرار (Buttons) */
+.button-primary {
+    -fx-background-color: #3c8631; /* الأخضر الغامق */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.button-secondary {
+    -fx-background-color: #70b569; /* الأخضر الفاتح للبحث مثلاً */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+
+.button-danger {
+    -fx-background-color: #ef3f34; /* الأحمر للحذف أو الخروج */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+/* زر العودة للمنيو */
+.button-back {
+    -fx-background-color: #7f8c8d;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+/* 4. تنسيق حقول الإدخال (TextFields) */
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+    -fx-font-size: 13px;
+}
+.text-field:focused {
+    -fx-border-color: #3498db; /* يزرق لما تضغط عليه */
+}
+
+/* 5. تنسيق الجدول (TableView) - مهم جداً لشاشة العرض */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #bdc3c7;
+}
+.table-view .column-header {
+    -fx-background-color: #ecf0f1;
+    -fx-font-weight: bold;
+}
+.table-view .cell {
+    -fx-alignment: center;
+}
+
+/* 6. تنسيق ملصق الترحيب */
+.label-welcome {
+    -fx-background-color: #edd6c7;
+    -fx-padding: 10;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+    -fx-background-radius: 10;
+}
